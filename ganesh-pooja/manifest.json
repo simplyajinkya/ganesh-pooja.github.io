@@ -1,0 +1,19 @@
+{
+   "app": {
+      "launch": {
+         "local_path": "index.html"
+      }
+   },
+   "description": "Jnana Prabodhini Ganesh Poojan App",
+   "icons": {
+      "128": "images/128.png",
+      "16": "images/16.png",
+      "48": "images/48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbj/AEVr9dx+k0EyF5MRp+1aAIJbcz9d7sn/mcvtfQ0tPmpOy5u65++KbCfzeIAqWCxAb2RTazeOjUNK14S2ke4xekVE8T5JHnF3h1WujNRuKR0Wd01ecYHF9FqVUuByCrHarGGxRajC9M8aPaqSaCb2rjO8KYDiXoI0ORScVhuQIDAQAB",
+   "manifest_version": 2,
+   "name": "Jnana Prabodhini Ganesh Poojan App!",
+   "permissions": [ "unlimitedStorage", "notifications" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.4"
+}
