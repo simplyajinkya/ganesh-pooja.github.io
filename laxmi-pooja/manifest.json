@@ -1,0 +1,19 @@
+{
+   "app": {
+      "launch": {
+         "local_path": "index.html"
+      }
+   },
+   "description": "Jnana Prabodhini Lakshmi Poojan App",
+   "icons": {
+      "128": "images/128.png",
+      "16": "images/16.png",
+      "48": "images/48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIJbmwVLoMYigF0TqKIocGouai1xdWWiAzJbI2gONb02lDRhVKWBtPBVUcAFp2BlYERiQb9p1/dzXjn8BMFTtd/1Y9mVN/LVgXHekzPCYsKobi7MdRJqCEza8VxUZKkVm+TaTcqZzYiKZL+ziwf2wN45X6WvTFdm6+JCaK0dXnBwIDAQAB",
+   "manifest_version": 2,
+   "name": "Jnana Prabodhini Lakshmi Poojan App!",
+   "permissions": [ "unlimitedStorage", "notifications" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2"
+}
