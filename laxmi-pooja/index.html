@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Lakshmi Poojan App!</title>
+		<meta name="description" content="" />
+		<meta name="author" content="admin" />
+
+
+		<meta name="viewport" content="width=600" align="center"/>
+		 <link rel="stylesheet" href="lib/jquery.mobile-1.2.0.min.css" />
+		 <script src="lib/jquery-1.8.2.min.js"></script>
+		 <script src="lib/jquery.mobile-1.2.0.min.js"></script>
+		 <script src="lib/PxLoader.js"></script>
+		 <script src="lib/PxLoaderImage.js"></script>
+		 <script type="text/javascript" src="lib/jquery.validate.min.js"></script>
+
+		<style>
+
+			canvas {
+
+				position: relative;
+				top: 0px;
+				left: 0px;
+			}
+
+
+		</style>
+		<link rel="stylesheet" href="lpoojan.css"/>
+		<script type="text/javascript" src="lpoojan.js"></script>
+
+	
+	</head>
+
+	<body>
+
+	<!-- start of id welcome -->
+
+					<div data-theme="b" data-role="page" id="welcome">
+							<div data-role="content" class="text-align-center">
+							<img id="welimage" src="images/slide0.jpg" height="660" width="400"/>
+							<!--<a href="#welcome" class="checkwelcome">Click Here to Continue</a>-->
+							</div>
+
+					</div>
+	<!-- end of id welcome -->
+
+	<!-- start of id register -->
+
+				<!-- <div data-theme="b" data-role="page" id="register">
+						<div data-role="content" class="text-align-center">
+							<form id="regform" method="POST" >
+
+							<table border="0" align="center">
+									<tr>
+										<td colspan="2">
+											<h2>One Time Activation</h2>
+										</td>
+										</tr>
+										<tr><td width="200" align="right">
+										Email Id :
+										</td>
+										<td width="200" ><input type="email" id="frmuserid" name="frmuserid" value"" size="50"/></td>
+										</tr>
+										<tr>
+										<td width="200" align="right">
+										Contact Number (Optional):
+										</td>
+										<td width="200" ><input type="text"  id="frmphone" name="frmphone" value"" size="15" /></td>
+										</tr>
+										<tr>
+										<td width="200" align="right">
+											Location :
+										</td>
+										<td width="200" ><input type="text" id="frmlocation" name="frmlocation" value"" size="50"/></td>
+										</tr>
+										<tr><td colspan="2">
+										<input class="register" type="submit" value="Activate" />
+										</td>
+										</tr>
+
+							</form>
+							</table>
+							<div id="result"></div>
+						</div>
+				</div> -->
+	<!-- end of id register -->
+
+	<!-- start of id home -->
+				<div data-theme="b" data-role="page" id="home" style="background:url(images/home_menu.jpg) no-repeat; background-position:center top; margin-top:20px;">
+					<div data-role="content" class="text-align-center">
+
+						<table border = "0" align="center">
+						<tr><td>
+						<div id="title">
+							<div class="ttl_info">
+									<a href="#infopage" data-transition="slide"><img src="images/info.jpg"/></a>
+							</div>
+							<!--<div class="en">
+									&nbsp;
+							</div>-->
+						</div>
+						</td>
+						<td width="300">&nbsp;</td>
+						</tr>
+						</table>
+
+
+						<div class="ui-grid-solo">
+							<div class="ui-block-a">
+									<a href="#page2" class="gotomain" >
+									<img src="images/btn1.jpg"/>
+								</a>
+								<div class="en">
+									&nbsp;
+								</div>
+							</div>
+						</div>
+						<div class="ui-grid-solo">
+							<div class="ui-block-a">
+								<a href="#page2" class="gotomain2">
+									<img src="images/btn2.jpg"/>
+								</a>
+								<div class="en">
+									&nbsp;
+								</div>
+							</div>
+						</div>
+						<div class="ui-grid-solo">
+								<div class="ui-block-a">
+									<a href="#page2" class="gotomain3">
+										<img src="images/btn3.jpg"/>
+									</a>
+									<div class="en">
+										&nbsp;
+									</div>
+								</div>
+						</div>
+						<div class="ui-grid-solo">
+								<div class="ui-block-sub">
+									<a href="#page2" class="gotomain4">
+										<img src="images/btn3_1.jpg"/>
+									</a>
+									<div class="en">
+										&nbsp;
+									</div>
+								</div>
+						</div>
+						<div class="ui-grid-solo">
+								<div class="ui-block-sub">
+									<a href="#page2" class="gotomain5">
+										<img src="images/btn3_2.jpg"/>
+									</a>
+									<div class="en">
+										&nbsp;
+									</div>
+								</div>
+						</div>
+						<div class="ui-grid-solo">
+								<div class="ui-block-sub">
+									<a href="#page2" class="gotomain6">
+										<img src="images/btn3_3.jpg"/>
+									</a>
+									<div class="en">
+										&nbsp;
+									</div>
+								</div>
+						</div>
+						<div class="ui-grid-solo">
+								<div class="ui-block-sub">
+									<a href="#page2" class="gotomain7">
+										<img src="images/btn3_4.jpg"/>
+									</a>
+									<div class="en">
+										&nbsp;
+									</div>
+								</div>
+						</div>
+						<div class="ui-grid-solo">
+								<div class="ui-block-sub">
+									<a href="#page2" class="gotomain8">
+										<img src="images/btn3_5.jpg"/>
+									</a>
+									<div class="en">
+										&nbsp;
+									</div>
+								</div>
+						</div>
+						<div class="ui-grid-solo">
+								<div class="ui-block-sub">
+									<a href="#page2" class="gotomain9">
+										<img src="images/btn3_6.jpg"/>
+									</a>
+									<div class="en">
+										&nbsp;
+									</div>
+								</div>
+						</div>
+						<div class="ui-grid-solo">
+								<div class="ui-block-a">
+									<a href="#page2" class="gotomain10">
+										<img src="images/btn4.jpg"/>
+									</a>
+									<div class="en">
+										&nbsp;
+									</div>
+								</div>
+						</div>
+
+
+					</div>
+					<!--<div data-theme="b" data-role="footer"class="text-align-center">
+						<a data-role="button" data-icon="forward" href="http://www.atclix.com/">AtClix Technologies</a>
+					</div>-->
+				</div>
+		<!-- end of id home -->
+
+		<!-- start of id page2 -->
+
+				<div data-theme="b" data-role="page" id="page2">
+
+							<div data-role="content" class="text-align-center">
+
+										<table border="0" align="center">
+													<tr><td>
+													<a href="#home" data-role="button" data-icon="home" data-transition="slide" data-mini="true" class="goback">Home</a>
+													</td>
+													<td align="center">
+													<img id="heading" src="images/title.jpg" />
+													</td>
+													<td align="right"><div class="enpage" id="pageno" style="color:#0000FF"></div></td>
+													</tr>
+													<tr><td colspan="3" align="center">
+													<canvas id="can" height="1" width="1">
+													</canvas>
+													<img id="canimage" src="" height="550" width="380" />
+
+													</td>
+													</tr>
+													<tr>
+													<td align="left" >
+													<button id="prevbutton" type="button" data-icon="arrow-l">Prev</button>
+													</td>
+													<td><audio id="audio" src="audio/audio1.ogg" preload="auto" controls></audio></td>
+													<td align="right">
+													<button id="nextbutton" type="button" data-icon="arrow-r" data-iconpos="right">Next</button>
+													</td>
+													</tr>
+										</table>
+
+											<!--<canvas id="can" height="580" width="400"></canvas>-->
+							</div>
+
+
+						<!--<div data-theme="b" data-role="footer" class="text-align-center">-->
+						<div data-theme="b" data-role="footer" class="text-align-center">
+
+									<!--<form name="index0">
+											<input type="hidden" name="index" value="0"/>
+									</form>-->
+							<a href="#home" data-role="button" data-icon="home" data-transition="slide" class="goback">
+							Main Menu</a>
+							<!--<a data-role="button" data-icon="forward" href="http://www.atclix.com/">AtClix Technologies</a>-->
+						</div>
+
+				</div>
+		<!-- end of id page2 -->
+
+			<!-- start of id infopage -->
+
+							<div data-theme="b" data-role="page" id="infopage">
+									<div data-role="content" class="text-align-center">
+										<img id="infoimage" src="images/info_page.jpg" height="660" width="400"/>
+									</div>
+									<div data-theme="b" data-role="footer" class="text-align-center">
+										<a href="#home" data-role="button" data-icon="home" data-transition="slide" class="goback">Main Menu</a>
+									</div>
+							</div>
+	<!-- end of id infopage -->
+
+
+
+
+	</body>
+	</html>
